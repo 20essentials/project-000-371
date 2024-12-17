@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 256" width="102px" height="102px">
+  <style type="text/css">
+    @keyframes ld-pulse
+{
+  0% {
+    animation-timing-function: cubic-bezier(0.0413,0.3905,0.5086,0.6902);
+    transform: scale(1);
+  }
+  24.3% {
+    animation-timing-function: cubic-bezier(0.2248,0.6332,0.5246,1);
+    transform: scale(0.8458);
+  }
+  55% {
+    animation-timing-function: cubic-bezier(0.3036,0.3393,0.655,0.6144);
+    transform: scale(0.8022);
+  }
+  70.2% {
+    animation-timing-function: cubic-bezier(0.4464,0.2728,0.5562,0.7288);
+    transform: scale(0.8294);
+  }
+  82.3% {
+    animation-timing-function: cubic-bezier(0.6826,0.1845,1,0.7358);
+    transform: scale(0.869);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.ld.ld-pulse {
+  animation: ld-pulse 0.5s infinite;
+}
+    @keyframes ld-move {
+      0% { transform: translate(0,0) }
+      100% { transform: translate(256px,0) }
+    }
+  </style>
+  <defs><g id="id-0.8295778312648259">
+    
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+
+<circle fill="#D2E7F0" cx="128" cy="128" r="42"/>
+<circle fill="#D2E7F0" cx="0" cy="0" r="42"/>
+<path fill="#D2E7F0" d="M242.397,114.397C236.19,61.648,194.352,19.81,141.603,13.603C147.81,66.352,189.648,108.19,242.397,114.397  z"/>
+<path fill="#D2E7F0" d="M114.397,13.603C61.648,19.81,19.81,61.648,13.603,114.397C66.352,108.19,108.19,66.352,114.397,13.603z"/>
+<path fill="#D2E7F0" d="M13.603,141.603c6.206,52.749,48.045,94.587,100.793,100.793C108.19,189.648,66.352,147.81,13.603,141.603z"/>
+<path fill="#D2E7F0" d="M242.397,141.603c-52.749,6.207-94.587,48.045-100.793,100.793  C194.352,236.19,236.19,194.352,242.397,141.603z"/>
+
+
+  </g></defs>
+  <rect x="0" y="0" fill="#0089D0" width="256" height="256"/>
+  <g>
+    <use xlink:href="#id-0.8295778312648259" x="-256" y="-256"/><use xlink:href="#id-0.8295778312648259" x="0" y="-256"/><use xlink:href="#id-0.8295778312648259" x="256" y="-256"/><use xlink:href="#id-0.8295778312648259" x="-256" y="0"/><use xlink:href="#id-0.8295778312648259" x="0" y="0"/><use xlink:href="#id-0.8295778312648259" x="256" y="0"/><use xlink:href="#id-0.8295778312648259" x="-256" y="256"/><use xlink:href="#id-0.8295778312648259" x="0" y="256"/><use xlink:href="#id-0.8295778312648259" x="256" y="256"/>
+    <animateTransform attributeName="transform" type="translate" dur="4s" repeatCount="indefinite" keyTimes="0;1" values="0;256"/>
+  </g>
+</svg>
