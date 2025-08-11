@@ -1,0 +1,23 @@
+{
+  "name": "panda-css-project",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "panda": "panda codegen --watch"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "@pandacss/dev": "0.38.0",
+    "@pandacss/react": "0.38.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.1.0",
+    "vite": "5.2.0",
+    "typescript": "^5.0.0"
+  }
+}
